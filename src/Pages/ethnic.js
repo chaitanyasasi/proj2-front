@@ -24,7 +24,7 @@ class EthnicPage extends React.Component {
         // console.log(type);
 
         axios({
-            url: `http://localhost:6530/category/${type}`,
+            url: `https://proj2-server.onrender.com/category/${type}`,
             method: 'get',
             headers: { 'Content-Type': 'application/JSON' }
         })
@@ -52,7 +52,7 @@ class EthnicPage extends React.Component {
         }
 
         axios({
-            url: "http://localhost:6530/filterProduct",
+            url: "https://proj2-server.onrender.com/filterProduct",
             method: "POST",
             headers: { "Content-Type": "application/JSON" },
             data: filterObject
@@ -79,7 +79,7 @@ class EthnicPage extends React.Component {
         }
 
         axios({
-            url: "http://localhost:6530/filterProduct",
+            url: "https://proj2-server.onrender.com/filterProduct",
             method: "POST",
             headers: { "Content-Type": "application/JSON" },
             data: filterObject
@@ -109,7 +109,7 @@ class EthnicPage extends React.Component {
         }
 
         axios({
-            url: "http://localhost:6530/filterProduct",
+            url: "https://proj2-server.onrender.com/filterProduct",
             method: "POST",
             headers: { "Content-Type": "application/JSON" },
             data: filterObject
@@ -135,7 +135,7 @@ class EthnicPage extends React.Component {
         }
 
         axios({
-            url: "http://localhost:6530/filterProduct",
+            url: "https://proj2-server.onrender.com/filterProduct",
             method: "POST",
             headers: { "Content-Type": "application/JSON" },
             data: filterObject
@@ -162,7 +162,7 @@ class EthnicPage extends React.Component {
         }
 
         axios({
-            url: "http://localhost:6530/filterProduct",
+            url: "https://proj2-server.onrender.com/filterProduct",
             method: "POST",
             headers: { "Content-Type": "application/JSON" },
             data: filterObject
