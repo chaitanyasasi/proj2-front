@@ -48,7 +48,7 @@ const HeaderOne = () => {
 
     useEffect(() => {
         if (sessionStorage.getItem('ltk') != null) {
-            fetch(`http://localhost:6530/userinfo`, {
+            fetch(`https://proj2-server.onrender.com/userinfo`, {
                 method: 'GET',
                 headers: {
                     'x-access-token': sessionStorage.getItem('ltk')
@@ -113,7 +113,7 @@ const HeaderOne = () => {
 
     const checkout = () => {
         console.log(values)
-        fetch(`http://localhost:6530/register`, {
+        fetch(`https://proj2-server.onrender.com/register`, {
             method: 'POST',
             headers: {
                 'accept': 'application/json',
@@ -143,7 +143,7 @@ const HeaderOne = () => {
 
     const LogCheckout = () => {
         console.log(logInfo)
-        fetch(`http://localhost:6530/login`, {
+        fetch(`https://proj2-server.onrender.com/login`, {
             method: 'POST',
             headers: {
                 'accept': 'application/json',
