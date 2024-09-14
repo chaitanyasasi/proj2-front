@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navbox {
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+
+}
+
+.myntralogo {
+    margin-left: 3.5%;
+}
+
+.headbar {
+    margin-left: 3%;
+}
+
+.navheadings {
+    font-size: 12px;
+    padding: 7px
+}
+
+.search-bar {
+    margin-left: 4%;
+    width: 37%;
+    background-color: rgb(245, 245, 246);
+}
+
+.search-bar>form>i {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.search-bar>form>input {
+    font-size: 14px;
+    background-color: rgb(245, 245, 246);
+
+}
+
+.iconstext {
+    margin-left: 2.5%;
+}
+
+.profile-text {
+    font-size: 11px;
+} */
+
+.mainpart {
+    display: flex;
+}
+
+.filtersection {
+    width: 16%;
+    font-size: 13px;
+    border: 1px solid rgb(158, 150, 150);
+    padding: 10px;
+    height: 600px;
+}
+
+.filtersection p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filtersection label {
+    padding: 3px;
+}
+
+.filt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 1.5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.cler {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    margin-left: 4%;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.UsProducts{
+    width: 75%;
+    margin-left: 4%;
+}
+
+.firstline {
+    padding: 20px;
+}
+
+.descri {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.descrip {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+
+}
+
+.flat {
+    position: fixed;
+    bottom: 130px;
+    right: 0px;
+    width: 44px;
+    /* height: 288px; */
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.flat-content {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    width: 46px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+
+}

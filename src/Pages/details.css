@@ -1,0 +1,66 @@
+.product-pic {
+    height: 500px;
+    width: 500px;
+}
+
+.piContent {
+    width: 50%;
+    z-index: 1;
+}
+
+.brand {}
+
+.text {
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+}
+
+.prodCost {
+    color: blue
+}
+
+.sizes {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.sizes:focus{
+    background-color:black;
+    color: white;
+
+}
+
+.sizes:hover {
+    background-color: black;
+    color: white;
+}
+
+.Cart {
+    height: 60px;
+    width: 180px;
+    background-color: #ff0303;
+    border: none;
+    border-radius: 6%;
+    font-weight: bold;
+    color: white;
+
+}
+
+.wish {
+    height: 60px;
+    width: 120px;
+    background-color: #fff;
+    border: solid 1px rgb(193, 193, 193);
+    border-radius: 6%;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.wish:hover {
+border: solid 3px green;
+}
+

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbox {
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+
+}
+
+.myntralogo {
+    margin-left: 3.5%;
+}
+
+.headbar {
+    margin-left: 3%;
+}
+
+.navheadings {
+    font-size: 12px;
+    padding: 7px
+}
+
+
+
+.search-bar {
+    margin-left: 4%;
+    width: 37%;
+    background-color: rgb(245, 245, 246);
+}
+
+.search-bar>form>i {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.search-bar>form>input {
+    font-size: 14px;
+    background-color: rgb(245, 245, 246);
+
+}
+
+.iconstext {
+    margin-left: 2.5%;
+}
+
+.profile-text {
+    font-size: 11px;
+    color: black;
+}
+
+
+.logBut {
+    background-color: rgb(50, 62, 22);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 45px;
+    margin-top: 5px;
+
+}
+
+.signBut {
+    background-color: rgb(152, 105, 152);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+.username{
+    background-color:rgb(6, 97, 6);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.logout{
+    background-color: rgb(131, 10, 102);
+    color: white;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* modal */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark overlay background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* max-width: 750px; */
+    width: 60%;
+    /* height: 600px; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}

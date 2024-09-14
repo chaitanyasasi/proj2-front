@@ -1,0 +1,17 @@
+.footer-section {
+
+    background: rgb(240, 237, 237);
+}
+
+
+.online-shop {
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.online-shop>a {
+    color: #696b79;
+    display: block;
+    text-decoration: none;
+}
