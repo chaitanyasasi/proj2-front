@@ -30,7 +30,7 @@ const Details = () => {
 
     useEffect(() => {
         axios({
-            url: `http://localhost:6530/oneProduct/${int}`,
+            url: `https://proj2-server.onrender.com/oneProduct/${int}`,
             method: "GET",
             headers: { "Content-Type": "application/json" }
         })
