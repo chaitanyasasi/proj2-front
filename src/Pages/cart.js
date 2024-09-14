@@ -79,7 +79,7 @@ const CartData = () => {
             handler: async (response) => {
                 try {
 
-                    const verifyLink = "http://localhost:6530/api/payment/verify";
+                    const verifyLink = "https://proj2-server.onrender.com/api/payment/verify";
                     const { data } = await Axios.post(verifyLink, response);
 
                 } catch (error) {
@@ -96,7 +96,7 @@ const CartData = () => {
 
 
         try {
-            const orderLink = "http://localhost:6530/api/payment/orders";
+            const orderLink = "https://proj2-server.onrender.com/api/payment/orders";
             const { data } = await Axios.post(orderLink, { amount: price });
             console.log(data)
 
